@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KQL Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>KQL Assistant 🔍</h1>
+        <p>Convert Natural Language to KQL Query</p>
+
+        <textarea id="inputPrompt" placeholder="Type your natural language prompt here..."></textarea>
+        <button onclick="generateKQL()">Generate KQL</button>
+
+        <h3>Generated KQL:</h3>
+        <pre id="kqlOutput">Your KQL will appear here...</pre>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
